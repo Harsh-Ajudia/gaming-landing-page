@@ -1,0 +1,775 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600&display=swap');
+@font-face {
+    font-family: "Gilroy";
+    src: url("../assets/fonts/Gilroy/Gilroy-Bold.otf");
+}
+@font-face {
+    font-family: "Gilroy";
+    src: url("../assets/fonts/Gilroy/Gilroy-Regular.otf");
+}
+/*Css*/
+.top-banner{
+	//height: 100vh;
+	background-image: url('../assets/images/backgrounds/layer-0.png');
+}
+.main-logo{
+	width: 116px;
+	height: 16px;
+	margin-right: 50px;
+}
+.header-search-bar{
+	width: 313px;
+	height: 38px;
+	border-radius: 6px;
+	border: solid 1px #2f353c;
+	background-color: transparent;
+	border-top-right-radius: 0px;
+	border-bottom-right-radius: 0px;
+	padding-left: 10px;
+	caret-color: #a1a1a1;
+	border-right: none;
+	color: #a1a1a1;
+}
+.header-search-bar:focus, .arrow-left-button:focus, .main-logo:focus{
+	outline: 1px solid transparent;
+}
+.header-search .input-group-text{
+	background: transparent;
+	border-color: #2f353c;
+	border-left: none;
+	border-top-right-radius: 6px;
+	border-bottom-right-radius: 6px;
+	font-weight: bold;
+}
+.nav-links-custom li.icon-links{
+	margin-top: 10px;
+}
+.nav-links-custom li a span{
+	color: #fff!important;
+	font-size: 13px;
+	font-family: Montserrat;
+	font-weight: 500;
+	line-height: 3.38;
+	letter-spacing: 0.26px;
+	text-align: center;
+	
+}
+.nav-links-custom li img{
+	width: 26px;
+	height: 26px;
+	margin-right: 10px;
+}
+/* Purple button */
+.arrow-left-button{
+	margin-top: 17px;
+	width: 138px;
+	height: 45px;
+	border-radius: 22.5px;
+	border: solid 1px #682cfd;
+	color: #fff;
+	background-color: #682cfd;
+}
+.arrow-left-button .pre-icon{
+	width: 35px;
+	height: 35px;
+	float: left;
+    background: #fff;
+    border-radius: 50%;
+	padding-top: 5px;
+	color: #682cfd;
+}
+.arrow-left-button .post-text{
+	padding-top: 5px;
+	float: left;
+	margin-left: 15px;
+}
+/* Purple button */
+
+/* Custom nav style */
+.custom-nav-style .nav-tabs{
+	border-bottom: 0px solid #2f353c;
+	padding-bottom: 125px; 
+}
+.custom-nav-style .nav-tabs .nav-link{
+	background: none;
+	border: none;
+	width: 53px;
+	font-family: Gilroy;
+	font-size: 14px;
+	font-weight: 600;
+	font-stretch: normal;
+	font-style: normal;
+	line-height: 3.14;
+	letter-spacing: 0.7px;
+	text-align: center;
+	color: #fff;
+	border-bottom: 1px solid #2f353c;
+	padding: 0.3rem 1rem;
+}
+.custom-nav-style .nav-tabs .nav-link.active{
+	color: #682cfd;
+	border-bottom: 3px solid #682cfd;
+}
+.custom-nav-style p.hero-heading {
+	font-family: Gilroy;
+	font-size: 20px;
+	font-weight: bold;
+	font-stretch: normal;
+	font-style: normal;
+	line-height: 2.2;
+	letter-spacing: 3px;
+	text-align: left;
+	color: #682cfd;
+	margin-bottom: 0px;
+
+}
+.custom-nav-style p.big-hero-heading {
+	margin-top: 40px;
+	margin-bottom: 0px;
+	font-family: Gilroy;
+	font-size: 75px;
+	font-weight: bold;
+	font-stretch: normal;
+	font-style: normal;
+	letter-spacing: normal;
+	text-align: left;
+	color: #ffffff;
+	line-height: 0.59;
+	text-transform: uppercase;
+}
+.custom-nav-style p.hero-description{
+	width: 50%;
+	opacity: 0.6;
+	font-family: Gilroy;
+	font-size: 15px;
+	font-weight: 500;
+	font-stretch: normal;
+	font-style: normal;
+	line-height: 1.8;
+	letter-spacing: 0.3px;
+	text-align: left;
+	color: rgba(249, 247, 255, 0.6);
+	margin-bottom: 0px;
+	margin-top: 39px;
+}
+.custom-nav-style .hero-description-button{
+	width: 336px;
+	margin-top: 50px;
+}
+.hero-slider-section{
+	margin-top: 45px;
+}
+.hero-slider-section p.slider-title {
+	margin-bottom: 0px;
+	font-family: Gilroy;
+	font-size: 18px;
+	font-weight: bold;
+	font-stretch: normal;
+	font-style: normal;
+	line-height: 1;
+	letter-spacing: normal;
+	text-align: left;
+	color: #682cfd;
+	padding-bottom: 17px;
+	border-bottom: 1px solid #682cfd;
+}
+.hero-slider-section .slider-images{
+	margin-top: 38px;
+}
+.hero-slider-section .slider-images .image-holder{
+	box-shadow: 0px 19px 106px 0 rgba(0, 0, 0, 0.35);
+	border: solid 2px rgba(255, 255, 255, 0.24);
+}
+
+/* Custom nav style */
+/*---------------------------------------------------------------------------*/
+.best-deals{
+	padding: 70px 0px 150px 0px;
+}
+.deals-bg{
+	background-color: #f9fafb;
+}
+.heading-deals{
+	font-size: 24px;
+	margin-bottom: 0px;
+	font-weight: bold;
+	font-stretch: normal;
+	font-style: normal;
+	line-height: 1.83;
+	letter-spacing: 3.6px;
+	text-align: center;
+	color: #271f3b;
+	text-transform: uppercase;
+	margin-bottom: 98px;
+}
+.best-deals .card-deal{
+	width: 210px;
+	height: 286px;
+	border-radius: 4px;
+	padding-top: 2rem;
+}
+.best-deals .card-deal:hover{
+	box-shadow: 0px 6px 32px 0 rgba(0, 0, 0, 0.03);
+	background-color: #ffffff;
+	cursor: pointer;
+}
+.best-deals .card-deal:hover img{
+	//box-shadow: 0px 6px 32px 0 rgba(118, 54, 247, 0.3);
+}
+.best-deals .card-deal img{
+	display: block;
+	width: 66px;
+	height: 62px;
+	margin: 0 auto;
+}
+.best-deals .card-deal .deal-description{
+	text-align: center;
+	margin-bottom: 0px;
+	font-family: Gilroy;
+	font-size: 18px;
+	font-weight: bold;
+	font-stretch: normal;
+	font-style: normal;
+	//line-height: 2.44;
+	letter-spacing: normal;
+	color: #271f3b;
+	margin-top: 73px;
+}
+/*---------------------------------------------------------------------------*/
+.trending-products{
+	background-image: url('../assets/images/backgrounds/layer-0@3x.png');
+	padding-bottom: 130px;
+}
+.trending-products .title-main{
+	font-family: Gilroy;
+	font-size: 24px;
+	font-weight: bold;
+	font-stretch: normal;
+	font-style: normal;
+	line-height: 1.83;
+	letter-spacing: 3.6px;
+	text-align: center;
+	color: #ffffff;
+	text-transform: uppercase;
+	padding-top: 93px;
+}
+.trending-products .game-card{
+	margin-top: 96px;
+}
+.game-image{
+	width: 263px;
+	height: 383px;
+	margin: auto;	
+}
+.game-description{
+	margin-top: 8px;
+}
+.game-description .title{
+	font-family: Gilroy;
+	font-size: 18px;
+	font-weight: 600;
+	font-stretch: normal;
+	font-style: normal;
+	letter-spacing: normal;
+	text-align: center;
+	color: #ffffff;
+	margin-bottom: 0px;
+}
+.game-description .price{
+	font-family: Gilroy;
+	font-size: 16px;
+	font-weight: bold;
+	font-stretch: normal;
+	font-style: normal;
+	letter-spacing: 0.56px;
+	text-align: center;
+	color: #682cfd;
+	margin-top: 15px;
+	margin-bottom: 0px;
+}
+.game-icon{
+	width: 45px;
+	height: 45px;
+	border-radius: 50%;
+	background: #151020;
+	position: absolute;
+	margin-top: -7px;
+	padding: 9px;
+	left: 50%;
+	margin-left: -22px;
+}
+.favorite-icon{
+	width: 45px;
+	height: 45px;
+	border-radius: 50%;
+	background: #000000;
+	position: absolute;
+	margin-top: -85px;
+	padding: 9px;
+	left: 70%;
+	text-align: center;
+	font-size: 20px;
+	margin-right: 40px;
+	color: #fff;
+}
+.favorite-icon:hover{
+	color: #dc3545;
+	cursor: pointer;
+}
+/*---------------------------------------------------------------------------*/
+.gamelow-products{
+	padding: 97px 0 198px 0;
+	background: #fff;
+}
+.gamelow-products .main-title{
+	font-family: Gilroy;
+	font-size: 24px;
+	font-weight: bold;
+	font-stretch: normal;
+	font-style: normal;
+	line-height: 1.83;
+	letter-spacing: 3.6px;
+	text-align: center;
+	color: #271f3b;
+	margin-bottom: 80px;
+	text-transform: uppercase;
+}
+.gamelow-prod-tile img{
+	width: 100%;
+}
+.gamelow-prod-tile{
+	padding-bottom: 30px;
+}
+p.tile-description{
+	font-family: Gilroy;
+	font-size: 16px;
+	font-weight: 600;
+	font-stretch: normal;
+	font-style: normal;
+	letter-spacing: normal;
+	text-align: left;
+	color: #ffffff;
+}
+.overlay-content{
+	margin: 0 20px;
+	position: absolute;
+	margin-top: -76px;
+	
+
+}
+.tile-section-products .shadow{
+	opacity: 0.8;
+	background-image: linear-gradient(to top, rgba(60, 59, 73, 0.92), #11161c);
+}
+.gamelow-prod-tile .arrow-left-button{
+	width: 120px;
+	height: 40px;
+}
+.gamelow-prod-tile .arrow-left-button .pre-icon{
+	width: 30px;
+	height: 30px;
+	padding-top: 3px;
+}
+.gamelow-prod-tile .arrow-left-button .post-text{
+	padding-top: 3px;
+}
+@media (max-width: 991px) {
+  .container.gamelow-container {
+    max-width: 98%;
+  }
+}
+@media (max-width: 768px) {
+	.container.gamelow-container {
+		max-width: 98%;
+	}
+	.gamelow-prod-tile .arrow-left-button{
+		width: 120px;
+		height: 40px;
+	}
+}
+@media (max-width: 576px) {
+  .overlay-content{
+		margin-top: -110px;
+	}
+}
+/*---------------------------------------------------------------------------*/
+.products-gamelow-two{
+	padding-top: 40px;
+	background-color: #f9fafb;
+}
+.products-gamelow-two .main-title{
+	font-family: Gilroy;
+	font-size: 24px;
+	font-weight: bold;
+	font-stretch: normal;
+	font-style: normal;
+	line-height: 1.83;
+	letter-spacing: 3.6px;
+	text-align: center;
+	color: #271f3b;
+	margin-bottom:80px;
+}
+.products-gamelow-two .custom-nav-products .nav-tabs .nav-link.nav-item{
+	border: 0px;
+	font-family: Gilroy;
+	font-size: 18px;
+	font-weight: bold;
+	font-stretch: normal;
+	font-style: normal;
+	line-height: 2.44;
+	letter-spacing: 1.8px;
+	text-align: center;
+	text-transform: uppercase;
+	color: #c5bbda;
+	padding-bottom:20px;
+}
+.products-gamelow-two .custom-nav-products .nav-tabs .nav-link.nav-item.active{
+	border-bottom: 2px solid #682cfd;
+	color: #682cfd;
+	background-color: transparent;
+}
+.products-gamelow-two .custom-nav-products .tab-content{
+	padding-top:59px;
+	padding-bottom:67px;
+}
+
+.products-gamelow-two .prod-two-tile .tile-content{
+	padding: 10px 10px 10px 0px;
+}
+.products-gamelow-two .prod-two-tile .tile-content .table-cell{
+	position: absolute;
+    top: 50%;
+    width: 100%;
+    margin: -15% 0 0 0;
+	padding-right: 21px;
+}
+.products-gamelow-two .prod-two-tile .tile-content p{
+	font-family: Gilroy;
+	font-size: 15px;
+	font-weight: bold;
+	font-stretch: normal;
+	font-style: normal;
+	line-height: 1.56;
+	letter-spacing: 0.54px;
+	text-align: left;
+	color: #271f3b;
+}
+.products-gamelow-two .prod-two-tile img{
+	width: 100%;
+	height: 248px;
+}
+.products-gamelow-two .prod-two-tile{
+	border-radius: 4px;
+	box-shadow: 0px 6px 32px 0 rgba(0, 0, 0, 0.03);
+	background-color: #ffffff;
+	margin-bottom: 30px;
+}
+.prod-two-tile .arrow-left-button{
+	width: 120px;
+	height: 40px;
+}
+.prod-two-tile .arrow-left-button .pre-icon{
+	width: 30px;
+	height: 30px;
+	padding-top: 3px;
+}
+.prod-two-tile .arrow-left-button .post-text{
+	padding-top: 3px;
+}
+.prod-two-tile .img-left{
+	padding-right:0px;
+}
+@media (max-width: 576px) {
+	.products-gamelow-two .prod-two-tile img{
+		max-width: 250px;
+		margin: 0 auto;
+		display: block;
+	}
+	.products-gamelow-two .prod-two-tile .tile-content .table-cell{
+		position: relative;
+		top: 0%;
+		width: 100%;
+		margin: 0;
+		padding: 45px;
+		text-align: center;
+	}
+	.products-gamelow-two .prod-two-tile .tile-content p{
+		text-align: unset;
+	}
+}
+/* -------------------------------------------------------------- */
+.hot-game-trending{
+	background-color: #151020;
+	padding-top: 100px;
+}
+.hot-game-trending .main-title{
+	font-family: Gilroy;
+	font-size: 24px;
+	font-weight: bold;
+	font-stretch: normal;
+	font-style: normal;
+	line-height: 1.83;
+	letter-spacing: 3.6px;
+	text-align: center;
+	color: #ffffff;
+	text-transform: uppercase;
+	margin-bottom :75px;
+}
+.card-block-game-display{
+	padding: 0px;
+}
+.card-block-game-display .trading-overlay{
+	position:absolute;
+	margin-top: -145px;
+	padding: 20px;
+}
+.trading-overlay .category-desc{
+	color: #fff;
+	padding-top: 20px;
+	font-family: Gilroy;
+	font-size: 16px;
+	font-weight: 600;
+	font-stretch: normal;
+	font-style: normal;
+	line-height: 1.5;
+	letter-spacing: normal;
+	text-align: left;
+
+}
+.trading-overlay .category-badge{
+	padding: 8px;
+	font-family: Gilroy;
+	border-radius: 2px;
+	color: #fff;
+	background-color: rgba(255,255,255,0.2);
+}
+.card-block-game-display img{
+	width:100%;
+}
+.block-trading{
+	padding-bottom: 90px;
+}
+/* ------------------------------------------------------- */
+.featured-gigs{
+	background-color: #151020;
+	padding-bottom: 90px;
+}
+.featured-gigs .main-title{
+	font-family: Gilroy;
+	font-size: 24px;
+	font-weight: bold;
+	font-stretch: normal;
+	font-style: normal;
+	line-height: 1.83;
+	letter-spacing: 3.6px;
+	text-align: center;
+	color: #ffffff;
+	margin-bottom: 76px;
+}
+.gig-card{
+	border-radius: 4px;
+	border: solid 1px #2c2146;
+	background-color: #1a1428;
+
+}
+.featured-gigs ._card-header img{
+	width: 100%;
+}
+.featured-gigs ._card-body{
+	padding: 22px;
+}
+.featured-gigs ._card-body .gig-title{
+	font-family: Gilroy;
+	font-size: 18px;
+	font-weight: 600;
+	font-stretch: normal;
+	font-style: normal;
+	line-height: 1.56;
+	letter-spacing: 0.54px;
+	text-align: left;
+	color: #ffffff;
+	margin-bottom: 30px;
+}
+.featured-gigs ._card-body .gig-price{
+	font-family: Gilroy;
+	font-size: 22px;
+	font-weight: bold;
+	font-stretch: normal;
+	font-style: normal;
+	line-height: 1;
+	letter-spacing: 0.77px;
+	text-align: left;
+	color: #682cfd;
+	margin-bottom: 0px;
+}
+.featured-gigs ._card-footer{
+	padding: 22px;
+}
+.featured-gigs ._card-footer .user-profile-gig{
+	border-radius: 4px;
+	background-color: #1e172d;
+	padding: 13px;
+}
+.featured-gigs ._card-footer .user-profile-gig img{
+	width: 40px;
+	height: 40px;
+	border-radius: 50%;
+	margin-top: -37px;
+}
+.user-profile-gig .gig-username{
+	font-family: Gilroy;
+	font-size: 16px;
+	font-weight: 600;
+	font-stretch: normal;
+	font-style: normal;
+	line-height: 1.75;
+	letter-spacing: 0.8px;
+	text-align: left;
+	color: #ffffff;
+}
+.user-profile-gig .gig-category{
+	opacity: 0.5;
+	font-family: Gilroy;
+	font-size: 14px;
+	font-weight: normal;
+	font-stretch: normal;
+	font-style: normal;
+	line-height: 2;
+	letter-spacing: 0.7px;
+	text-align: left;
+	color: rgba(255, 255, 255, 0.5);
+
+}
+.user-profile-gig .user-gig-rating{
+	font-family: Gilroy;
+	font-size: 20px;
+	font-weight: 600;
+	font-stretch: normal;
+	font-style: normal;
+	line-height: 1.4;
+	letter-spacing: 1px;
+	text-align: left;
+	color: #ffa034;
+}
+.user-profile-gig .user-gig-total{
+	opacity: 0.5;
+	font-family: Gilroy;
+	font-size: 12px;
+	font-weight: 500;
+	font-stretch: normal;
+	font-style: normal;
+	line-height: 2.33;
+	letter-spacing: 0.6px;
+	text-align: right;
+	color: rgba(255, 255, 255, 0.5);
+}
+@media (max-width: 1200px) and (min-width: 991px){
+	.user-profile-gig .list-inline-item:nth-child(2){
+		margin-right: 0px;
+	}
+}
+/*---------------------------------------------------------------*/
+.home-page-footer{
+	background: #151020 url('../assets/images/backgrounds/group-7@3x.png');
+	background-repeat: no-repeat;
+    background-size: 100%;
+	background-position: bottom;
+}
+.footer-logo{
+	width: 190px;
+	padding-bottom: 40px;
+}
+.footer-sect{
+	padding-top: 262px;
+}
+.footer-sect .social-icon{
+	border-radius: 50%;
+	width: 40px;
+	height: 40px;
+	border: solid 1px #3a414c;
+}
+.footer-sect .catchy{
+	padding-top:23px;
+	padding-bottom: 15px;
+	font-family: Montserrat;
+	font-size: 14px;
+	font-weight: normal;
+	font-stretch: normal;
+	font-style: normal;
+	letter-spacing: normal;
+	text-align: left;
+	color: #a5afbf;
+	margin-bottom: 0;
+}
+.trustpilot-logo{
+	width:94px;
+	height: 23px;
+}
+.site-rating{
+	padding-left: 26px; 
+	color: #ffa034;
+	font-family: Montserrat;
+	font-size: 18px;
+	font-weight: 600;
+	font-stretch: normal;
+	font-style: normal;
+	letter-spacing: normal;
+	text-align: left;
+}
+.store-branding{
+	margin-top: 26px;
+}
+.store-branding img{
+	width: 107px;
+	height: 32px;
+}
+.social-icons{
+	margin-bottom: 0;
+}
+.footer-sect{
+	padding-bottom: 24px;
+	border-bottom: 1px solid #777;
+}
+p.copyright{
+	margin-bottom: 0;
+	font-family: Montserrat;
+	font-size: 14px;
+	font-weight: normal;
+	font-stretch: normal;
+	font-style: normal;
+	letter-spacing: normal;
+	text-align: center;
+	color: #a5afbf;
+	padding-bottom: 25px;
+	padding-top: 39px;
+}
+.footer-sect .footer-heading p{
+	font-family: Gilroy;
+	font-size: 18px;
+	font-weight: bold;
+	font-stretch: normal;
+	font-style: normal;
+	letter-spacing: 0.63px;
+	text-align: left;
+	color: #ffffff;
+	margin-bottom: 35px;
+}
+.footer-sect .footer-links li{
+	list-style-type: none;
+	margin-bottom: 8px;
+}
+.footer-sect .footer-links li a{
+	text-decoration: none;
+	opacity: 0.7;
+	font-family: Gilroy;
+	font-size: 14px;
+	font-weight: 500;
+	font-stretch: normal;
+	font-style: normal;
+	letter-spacing: normal;
+	text-align: left;
+	color: rgba(255, 255, 255, 0.7);
+}
+.store-branding .list-inline{
+	margin-bottom: 0;
+}
